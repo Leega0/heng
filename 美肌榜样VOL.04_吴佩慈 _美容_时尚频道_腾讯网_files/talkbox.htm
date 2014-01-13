@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0081)http://radio.t.qq.com/talkbox.php?text=%C3%C0%BC%A1%B0%F1%D1%F9%CE%E2%C5%E5%B4%C8 -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>腾讯微博</title>
+<link href="wbTalkBox_101222.css" type="text/css" rel="stylesheet">
+<style type="text/css"></style></head>
+<body marginwidth="0" marginheight="0">
+<div id="talkBox">
+	<div class="cntBox"><textarea id="msgTxt" accesskey="u" name="content" autocomplete="off" tabindex="1">#美肌榜样吴佩慈#</textarea><div class="txtShadow"><span></span><b>|</b><span></span></div></div>
+<div class="funBox">
+<div class="insertFun">
+</div>
+<div class="sendFun">
+<input type="button" class="sendBtn btnHasStr" value="发送" title="快捷键 Ctrl+Enter" tabindex="2"><span class="countTxt">还剩<em>132</em>字</span>
+</div>
+</div></div>
+<textarea id="topic" style="display:none">#美肌榜样吴佩慈#</textarea>
+<script type="text/javascript" src="mi.Open_130416.js"></script><script language="javascript">
+MI.user={fun:{}}</script>
+<script type="text/javascript">
+var cfg = {
+	pref : ""
+}
+UI.ready(function(){
+	MI.talkBox=new MI.TalkBox('talkBox');
+		var text = MI.talkBox._txt.value;
+	MI.talkBox.addCheck=$('topic').value;
+	MI.talkBox.autoSave=1;
+	MI.talkBox.success = function(){
+		MI.talkBox._txt.value = $('topic').value;
+	};
+	MI.talkBox.successStart = function(){
+		if(!MI.talkBox._txt.value.hasString(text)) MI.talkBox.countNum(-1);
+	}
+
+	//Create Dialog && Card && DialogTip
+	MI.dialog = MI.dialog || new MI.Dialog();
+	MI.dialog._bg.style.height = UI.pageHeight() + 'px';
+
+});
+</script>
+
+</body></html>

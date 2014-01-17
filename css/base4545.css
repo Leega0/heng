@@ -169,29 +169,48 @@ ol.S_pic li a.cur img{filter:alpha(opacity=100);-moz-opacity:1;opacity:1;}
 .Page02{background: url(../images/qbztbg.png) no-repeat left 0px;}
 .Page03{background: url(../images/page_03.png) no-repeat left 0px;}
 .Page04{background:#f9f9f9 url(http://mat1.gtimg.com/fashion/fg/425/722/wupeici/A_P04.jpg) no-repeat left 0px;}
-.Page05{background:#f9f9f9 url(http://mat1.gtimg.com/fashion/fg/425/722/wupeici/A_P05.jpg) no-repeat left 0px;}
-.Page06{background:#f9f9f9 url(http://mat1.gtimg.com/fashion/fg/425/722/wupeici/A_P06.jpg) no-repeat left 0px;}
-.Page07{background:#f9f9f9 url(http://mat1.gtimg.com/fashion/fg/425/722/wupeici/A_P07.jpg) no-repeat left 0px;}
-.Page08{background:#f9f9f9 url(http://mat1.gtimg.com/fashion/fg/425/722/wupeici/A_P08.jpg) no-repeat left 0px;}
+.Page05{background: url(../images/page_05.png) no-repeat left 0px;}
+.Page06{background: url(../images/page_06.png) no-repeat left 0px;}
+.Page07{background: url(http://mat1.gtimg.com/fashion/fg/425/722/wupeici/A_P07.jpg) no-repeat left 0px;}
+.Page08{background: url(http://mat1.gtimg.com/fashion/fg/425/722/wupeici/A_P08.jpg) no-repeat left 0px;}
 
 /*animate position*/
 .Page02 .PageTitle01{ position:absolute; left:24px; top:70px;}
 .Page02 .pagenum1{width: 194px; height: 193px; background:url(../images/numbg_03.png) 0 0 no-repeat; position: absolute;right:320px;top: 12px;}
 .Page02 .pagenum2{width: 194px; height: 193px;background:url(../images/numbg_07.png) 0 0 no-repeat;position: absolute;right: 270px;top: 290px;}
 .Page02 .pagenum3{width: 194px; height: 193px;background:url(../images/numbg_10.png) 0 0 no-repeat;position: absolute;bottom: 20px;left: 250px;}
-.Page02 .cur1{background:url(../images/qbg_03.png) 0 0 no-repeat;}
-.Page02 .cur2{background:url(../images/qbg_07.png) 0 0 no-repeat;}
-.Page02 .cur3{background:url(../images/qbg_10.png) 0 0 no-repeat;}
+.Page02 .pagenum1:hover{background:url(../images/qbg_03.png) 0 0 no-repeat;}
+.Page02 .pagenum2:hover{background:url(../images/qbg_07.png) 0 0 no-repeat;}
+.Page02 .pagenum3:hover{background:url(../images/qbg_10.png) 0 0 no-repeat;}
 .Page03 .pagenum1{width: 169px; height: 169px; background: url(../images/xmf_06.png) 0 0 no-repeat; position: absolute;top: 170px;left: 55px;}
 .Page03 .pagenum2{width: 169px; height: 169px; background: url(../images/xmf_13.png) 0 0 no-repeat; position: absolute;bottom: 80px;left: 35px;}
 .Page03 .pagenum3{width: 169px; height: 169px; background: url(../images/xmf_03.png) 0 0 no-repeat; position: absolute;top:80px; right: 315px;}
 .Page03 .pagenum4{width: 169px; height: 169px; background: url(../images/xmf_08.png) 0 0 no-repeat; position: absolute;right: 270px;bottom: 180px;}
 .Page03 .pagenum5{width: 169px; height: 169px; background: url(../images/xmf_17.png) 0 0 no-repeat; position: absolute;bottom: 40px;right: 370px;}
-.Page03 .cur1{background: url(../images/xmbg_06.png) 0 0 no-repeat;}
-.Page03 .cur2{background: url(../images/xmbg_13.png) 0 0 no-repeat;}
-.Page03 .cur3{background: url(../images/xmbg_03.png) 0 0 no-repeat;}
-.Page03 .cur4{background: url(../images/xmbg_08.png) 0 0 no-repeat;}
-.Page03 .cur5{background: url(../images/xmbg_17.png) 0 0 no-repeat;}
+.Page03 .pagenum1:hover{background: url(../images/xmbg_06.png) 0 0 no-repeat;}
+.Page03 .pagenum2:hover{background: url(../images/xmbg_13.png) 0 0 no-repeat;}
+.Page03 .pagenum3:hover{background: url(../images/xmbg_03.png) 0 0 no-repeat;}
+.Page03 .pagenum4:hover{background: url(../images/xmbg_08.png) 0 0 no-repeat;}
+.Page03 .pagenum5:hover{background: url(../images/xmbg_17.png) 0 0 no-repeat;}
+
+.Page05 .pagenum1{width: 165px; height: 100px; background: url(../images/qbbg_06.png) 0 0 no-repeat; position: absolute;top:125px;left:80px; }
+.Page05 .pagenum2{width: 165px; height: 100px; background: url(../images/qbbg_03.png) 0 0 no-repeat; position: absolute;top: 90px;left: 275px;}
+.Page05 .pagenum3{width: 165px; height: 100px; background: url(../images/qbbg_09.png) 0 0 no-repeat; position: absolute;top:125px;left: 480px;}
+.Page05 .pagenum4{width: 165px; height: 100px; background: url(../images/qbbg_10.png) 0 0 no-repeat; position: absolute;bottom: 220px;left: 510px;}
+.Page05 .pagenum5{width: 165px; height: 100px; background: url(../images/qbbg_26.png) 0 0 no-repeat; position: absolute; bottom: 75px; left:470px;}
+.Page05 .pagenum6{width: 165px; height: 100px; background: url(../images/qbbg_29.png) 0 0 no-repeat; position: absolute; bottom: 12px; left:275px;}
+.Page05 .pagenum7{width: 165px; height: 100px; background: url(../images/qbbg_07.png) 0 0 no-repeat; position: absolute; bottom: 74px; left: 80px;}
+.Page05 .pagenum8{width: 165px; height: 100px; background: url(../images/qbbg_15.png) 0 0 no-repeat; position: absolute; left: 50px; top: 280px;}
+.Page05 .pagenum1:hover{background: url(../images/qbb_06.png) 0 0 no-repeat;}
+.Page05 .pagenum2:hover{background: url(../images/qbb_03.png) 0 0 no-repeat;}
+.Page05 .pagenum3:hover{background: url(../images/qbb_09.png) 0 0 no-repeat;}
+.Page05 .pagenum4:hover{background: url(../images/qbb_15.png) 0 0 no-repeat;}
+.Page05 .pagenum5:hover{background: url(../images/qbb_26.png) 0 0 no-repeat;}
+.Page05 .pagenum6:hover{background: url(../images/qbb_29.png) 0 0 no-repeat;}
+.Page05 .pagenum7:hover{background: url(../images/qbb_07.png) 0 0 no-repeat;}
+.Page05 .pagenum8:hover{background: url(../images/qbb_18.png) 0 0 no-repeat;}
+
+
 .PageTitle02{ position:absolute; left:62px; top:20px;}
 .PageTitle03{ position:absolute; left:228px; bottom:50px;}
 .PageTitle04{ position:absolute; left:103px; top:30px;}
